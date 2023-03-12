@@ -7,6 +7,11 @@
     font-family: 'UbuntuRegular';
     src: url(fonts/Ubuntu-Regular.ttf);
 }
+@media (max-width:569px) {
+    img{
+        width: 45%
+    };
+}
 span{
     margin-right: 0;
     color: black;
