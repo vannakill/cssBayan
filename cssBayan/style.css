@@ -39,3 +39,28 @@ input{
     font-size: 0;
     overflow: hidden;
 }
+.image_container2{
+    display: block;
+    width: 500px;
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+.image_container3{
+    display: block;
+    width: 500px;
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.image_container4{
+    display: block;
+    width: 500px;
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+.container:hover label{
+    color: black;
+}
