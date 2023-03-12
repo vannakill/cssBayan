@@ -38,6 +38,8 @@ input{
     max-height: 0;
     font-size: 0;
     overflow: hidden;
+	transform: translateY(0%);
+	transition: .6s all;
 }
 .image_container2{
     display: block;
@@ -45,6 +47,8 @@ input{
     max-height: 0;
     font-size: 0;
     overflow: hidden;
+	transform: translateY(0%);
+	transition: .6s all;
 }
 .image_container3{
     display: block;
@@ -53,6 +57,8 @@ input{
     font-size: 0;
     overflow: hidden;
     margin-bottom: 5px;
+	transform: translateY(0%);
+	transition: .6s all;
 }
 .image_container4{
     display: block;
@@ -60,7 +66,25 @@ input{
     max-height: 0;
     font-size: 0;
     overflow: hidden;
+	transform: translateY(0%);
+	transition: .6s all;
 }
 .container:hover label{
     color: black;
+}
+label:hover span{
+    transform: rotateZ(90deg);
+    transition: .6s;
+}
+#radio1:checked  ~ .image_container1{
+    max-height: 500px;
+}
+#radio2:checked  ~ .image_container2{
+    max-height: 500px;
+}
+#radio3:checked  ~ .image_container3{
+    max-height: 550px;
+}
+#radio4:checked  ~ .image_container4{
+    max-height: 540px;
 }
