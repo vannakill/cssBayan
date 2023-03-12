@@ -88,3 +88,31 @@ label:hover span{
 #radio4:checked  ~ .image_container4{
     max-height: 540px;
 }
+#label1:hover ~ .image_container1{
+    max-height: 500px ;
+}
+#label2:hover ~ .image_container2{
+    max-height: 500px ;
+}
+#label3:hover ~ .image_container3{
+    max-height: 500px ;
+}
+#label4:hover ~ .image_container4{
+    max-height: 500px ;
+}
+label:hover span{
+    transform: rotateZ(90deg);
+    transition: .6s;
+}
+#radio1:checked ~ * #arrow1{
+    transform: rotateZ(90deg);
+}
+#radio2:checked ~ * #arrow2{
+    transform: rotateZ(90deg);
+}
+#radio3:checked ~ * #arrow3{
+    transform: rotateZ(90deg);
+}
+#radio4:checked ~ * #arrow4{
+    transform: rotateZ(90deg);
+}
