@@ -1,4 +1,41 @@
 *{
-	padding 0 auto;
-	margin 0 auto:
+	padding: 0 auto;
+	margin: 0 auto;
+	font-family: 'UbuntuRegular';
+}
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+span{
+    margin-right: 0;
+    color: black;
+}
+.container{
+    width: 70%;
+}
+h1{
+    margin: 25px 0px ;
+    color: black;
+}
+label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    cursor: pointer;
+    color: blue;
+    width: 100%;
+    height: 70px;
+}
+input{
+    display: none;
+}
+.image_container1{
+    display: block;
+    width: 500px;
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
 }
